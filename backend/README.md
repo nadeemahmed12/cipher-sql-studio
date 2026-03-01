@@ -87,6 +87,7 @@ MONGO_URI="mongodb://localhost:27017/ciphersqlstudio"
  - Lightweight model
 
 📌 API Endpoints
+
 🔹 Create Assignment
   - POST /api/cipherstudio/create
 🔹 Get All Assignment
