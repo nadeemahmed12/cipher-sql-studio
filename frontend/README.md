@@ -39,9 +39,7 @@ SCSS Features Used:
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
-
-```bash
-- git clone <your-repo-link>
+- git clone <https://github.com/nadeemahmed12/cipher-sql-studio.git>
 - cd frontend
 
 2️⃣ Install dependencies

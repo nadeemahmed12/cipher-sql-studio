@@ -12,21 +12,21 @@ CipherSQL Studio is an interactive SQL learning platform backend that allows use
 # 🛠️ Project Setup Instructions
 
 ## 1️⃣ Clone Repository
-- git clone <repository-url>
+- git clone <https://github.com/nadeemahmed12/cipher-sql-studio.git>
 - cd backend
 ## 2️⃣Install Dependencies
 - npm install
 
 ## 3️⃣Environment Variables
-PG_USER=postgres
-PG_HOST=localhost
-PG_DATABASE=ciphersqlstudio
-PG_PASSWORD=root
-PG_PORT=5432
+- PG_USER=postgres
+- PG_HOST=localhost
+- PG_DATABASE=ciphersqlstudio
+- PG_PASSWORD=root
+- PG_PORT=5432
 
 MONGO_URI="mongodb://localhost:27017/ciphersqlstudio"
-PORT=3000
-GEMINI_API_KEY=your_gemini_api_key
+- PORT=3000
+- GEMINI_API_KEY=your_gemini_api_key_main_backend_folder
 
 ## 4️⃣Start Server
 - npm run dev
@@ -88,20 +88,16 @@ GEMINI_API_KEY=your_gemini_api_key
  - Lightweight model
 
 📌 API Endpoints
-- Create Assignment
-- POST /api/cipherstudio/create
-
-- Get Assignment
-- GET /api/cipherstudio/
-
-- Get Assignment By Id(particular assignment) 
-- GET /api/cipherstudio/:id/
-
-- Execute Query
-- POST /api/cipherstudio/:id/execute
-
-- Get AI Hint
-- POST /api/cipherstudio/:id/hint
-
-- Delete workspace(postgre)
-- DELETE /api/cipherstudio/:id/workspace
+ Create Assignment
+  - POST /api/cipherstudio/create
+ Get All Assignment
+  - GET /api/cipherstudio/
+ Get Assignment By Id(particular assignment) 
+  - GET /api/cipherstudio/:id/
+ Execute Query
+  - POST /api/cipherstudio/:id/execute
+ Delete workspace in (postgre)
+  - DELETE /api/cipherstudio/:id/workspace
+ Get AI Hint
+  - POST /api/cipherstudio/:id/hint
+  
