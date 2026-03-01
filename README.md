@@ -51,3 +51,15 @@ A Full Stack SQL Learning Platform with isolated schema execution and AI-based h
 ## 📸 Demo Screenshots
 ### Assignment Listing
 ![alt text](image.png)
+
+### Attempt Interface
+![alt text](image-1.png)
+
+### Correct Result Validation
+![alt text](image-2.png)
+
+### Error Handling
+![alt text](image-3.png)
+
+### AI Hint System
+![alt text](image-4.png)
