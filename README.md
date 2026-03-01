@@ -49,20 +49,21 @@ A Full Stack SQL Learning Platform with isolated schema execution and AI-based h
 - /frontend/README.md
 
 ## 📸 Demo Screenshots
+
 ### Assignment Listing
-![alt text](image.png)
+![Assignment Listing](./screenshots/assignment-list.png)
 
 ### Attempt Interface
-![alt text](image-1.png)
+![Attempt Interface](./screenshots/attempt-interface.png)
 
 ### Correct Result Validation
-![alt text](image-2.png)
+![Correct Result](./screenshots/correct-result.png)
 
 ### Error Handling
-![alt text](image-3.png)
+![Error Handling](./screenshots/error-handling.png)
 
 ### AI Hint System
-![alt text](image-4.png)
+![AI Hint System](./screenshots/ai-hint.png)
 
-### Isolated workspace
-![alt text](image-5.png)
+### Isolated Workspace (PostgreSQL Schema)
+![Isolated Workspace](./screenshots/isolated-workspace.png)
