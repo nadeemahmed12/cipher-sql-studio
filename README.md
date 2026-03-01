@@ -63,3 +63,6 @@ A Full Stack SQL Learning Platform with isolated schema execution and AI-based h
 
 ### AI Hint System
 ![alt text](image-4.png)
+
+### Isolated workspace
+![alt text](image-5.png)
