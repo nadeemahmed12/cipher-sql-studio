@@ -29,7 +29,7 @@ MONGO_URI="mongodb://localhost:27017/ciphersqlstudio"
 - GEMINI_API_KEY=your_gemini_api_key_main_backend_folder
 
 ## 4️⃣Start Server
-- npm run dev
+- node server.js or nodemon server.js
 - http://localhost:3000
 
 

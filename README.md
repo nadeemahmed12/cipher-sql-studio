@@ -34,25 +34,16 @@ A Full Stack SQL Learning Platform with isolated schema execution and AI-based h
 ## ⚙️ Setup
 
 ### Backend
-cd backend  
-npm install  
-npm run dev  
+- cd backend  
+- npm install  
+- node server.js or nodemon server.js 
 
 ### Frontend
-cd frontend  
-npm install  
-npm run dev  
+- cd frontend  
+- npm install  
+- npm run dev  
 
 ---
 ## For detailed setup and architecture:
 - /backend/README.md
 - /frontend/README.md
-
-## 📸 Demo
-
-(Screenshots here)
-
----
-
-## 🎥 Demo Video
-(Link here)
