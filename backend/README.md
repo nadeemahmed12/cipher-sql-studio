@@ -87,16 +87,16 @@ MONGO_URI="mongodb://localhost:27017/ciphersqlstudio"
  - Lightweight model
 
 📌 API Endpoints
-Create Assignment
+🔹 Create Assignment
   - POST /api/cipherstudio/create
-Get All Assignment
+🔹 Get All Assignment
   - GET /api/cipherstudio/
-Get Assignment By Id(particular assignment) 
+🔹 Get Assignment By Id(particular assignment) 
   - GET /api/cipherstudio/:id/
-Execute Query
+🔹 Execute Query
   - POST /api/cipherstudio/:id/execute
-Delete workspace in (postgre)
+🔹 Delete workspace in (postgre)
   - DELETE /api/cipherstudio/:id/workspace
-Get AI Hint
+🔹 Get AI Hint
   - POST /api/cipherstudio/:id/hint
   
