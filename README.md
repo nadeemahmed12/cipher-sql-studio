@@ -47,3 +47,5 @@ A Full Stack SQL Learning Platform with isolated schema execution and AI-based h
 ## For detailed setup and architecture:
 - /backend/README.md
 - /frontend/README.md
+
+## 📸 Demo Screenshots
