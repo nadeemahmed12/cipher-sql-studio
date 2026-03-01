@@ -21,14 +21,14 @@ function AssignmentList() {
           <h3>{item.title}</h3>
           <p>{item.question}</p>
           <div className="card-actions">
-  <span className={`difficulty ${item.difficulty.toLowerCase()}`}>
-    {item.difficulty}
-  </span>
+            <span className={`difficulty ${item.difficulty.toLowerCase()}`}>
+              {item.difficulty}
+            </span>
 
-  <button onClick={() => navigate(`/assignment/${item._id}`)}>
-    Start
-  </button>
-</div>
+            <button onClick={() => navigate(`/assignment/${item._id}`)}>
+              Start
+            </button>
+          </div>
         </div>
       ))}
     </div>

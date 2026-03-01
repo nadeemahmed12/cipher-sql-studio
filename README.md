@@ -67,3 +67,6 @@ A Full Stack SQL Learning Platform with isolated schema execution and AI-based h
 
 ### Isolated Workspace (PostgreSQL Schema)
 ![Isolated Workspace](./screenshots/isolated-workspace.png)
+
+### Flow Diagram execute query to result display
+![Isolated Workspace](./screenshots/execute-query.png)

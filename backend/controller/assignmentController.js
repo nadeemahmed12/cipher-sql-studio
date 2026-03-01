@@ -65,7 +65,7 @@ export const executeQuery = async (req, res) => {
     const trimmedQuery = query.trim();
     const upperQuery = trimmedQuery.toUpperCase();
 
-    // Only SELECT allowed
+    
     if (!upperQuery.startsWith("SELECT")) {
       return res.status(400).json({
         success: false,
@@ -73,7 +73,7 @@ export const executeQuery = async (req, res) => {
       });
     }
 
-    // Block multiple statements
+    
     if (trimmedQuery.split(";").length > 2) {
       return res.status(400).json({
         success: false,
@@ -81,7 +81,7 @@ export const executeQuery = async (req, res) => {
       });
     }
 
-    //Block dangerous keywords
+    
     const forbidden = /(DROP|DELETE|ALTER|UPDATE|INSERT|TRUNCATE|CREATE)/i;
     if (forbidden.test(trimmedQuery)) {
       return res.status(400).json({
